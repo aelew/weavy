@@ -9,7 +9,7 @@ weave {
     configure {
         name = "weavy"
         modId = "weavy"
-        entryPoints = listOf("dev.aelew.weavy.Weavy")
+        entryPoints = listOf("dev.aelew.weavy.WeavyMod")
         hooks = listOf("dev.aelew.weavy.hook.MinecraftHook")
         mixinConfigs = listOf("weavy.mixin.json")
         accessWideners = listOf("weavy.accesswidener.txt")
