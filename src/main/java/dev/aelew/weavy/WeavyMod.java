@@ -1,6 +1,6 @@
-package com.example.mod;
+package dev.aelew.weavy;
 
-import com.example.mod.listener.RenderGameOverlayEventListener;
+import dev.aelew.weavy.listener.RenderGameOverlayEventListener;
 import net.weavemc.api.ModInitializer;
 import net.weavemc.api.event.EventBus;
 import net.weavemc.api.event.KeyboardEvent;
@@ -8,10 +8,11 @@ import org.jetbrains.annotations.NotNull;
 
 import java.lang.instrument.Instrumentation;
 
-public class ExampleMod implements ModInitializer {
+public class WeavyMod implements ModInitializer {
+
     @Override
     public void init() {
-        System.out.println("Hello from ExampleMod!");
+        System.out.println("Hello from Weavy!");
 
         EventBus.subscribe(new RenderGameOverlayEventListener());
 

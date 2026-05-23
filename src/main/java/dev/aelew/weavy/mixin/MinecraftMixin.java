@@ -1,4 +1,4 @@
-package com.example.mod.mixins;
+package dev.aelew.weavy.mixin;
 
 import net.minecraft.client.Minecraft;
 import org.spongepowered.asm.mixin.Mixin;

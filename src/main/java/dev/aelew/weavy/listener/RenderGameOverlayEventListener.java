@@ -1,4 +1,4 @@
-package com.example.mod.listener;
+package dev.aelew.weavy.listener;
 
 import net.weavemc.api.event.RenderGameOverlayEvent;
 import net.weavemc.api.event.SubscribeEvent;
