@@ -1,9 +1,9 @@
 package com.example.mod;
 
 import com.example.mod.listener.RenderGameOverlayEventListener;
-import net.weavemc.api.KeyboardEvent;
 import net.weavemc.api.ModInitializer;
 import net.weavemc.api.event.EventBus;
+import net.weavemc.api.event.KeyboardEvent;
 import org.jetbrains.annotations.NotNull;
 
 import java.lang.instrument.Instrumentation;
@@ -21,7 +21,9 @@ public class ExampleMod implements ModInitializer {
         });
     }
 
-    @Override public void preInit(@NotNull Instrumentation instrumentation) {
+    @Override
+    public void preInit(@NotNull Instrumentation instrumentation) {
         System.out.println("This message is printed before Minecraft initialises");
     }
+
 }

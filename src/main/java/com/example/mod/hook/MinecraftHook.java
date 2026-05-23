@@ -8,6 +8,7 @@ import org.objectweb.asm.tree.ClassNode;
 import org.objectweb.asm.tree.MethodInsnNode;
 
 public class MinecraftHook extends Hook {
+
     public MinecraftHook() {
         super("net/minecraft/client/Minecraft");
     }
@@ -33,4 +34,5 @@ public class MinecraftHook extends Hook {
     public static void onStartGame() {
         System.out.println("Hook Test");
     }
+
 }

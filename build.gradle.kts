@@ -1,5 +1,5 @@
 plugins {
-    id("net.weavemc.gradle") version "1.2.0"
+    id("net.weavemc.gradle") version "1.3.0"
 }
 
 group = "com.example"
@@ -25,17 +25,16 @@ repositories {
 }
 
 dependencies {
-    implementation("net.weavemc:loader:1.2.0") // For advanced modifications
-    implementation("net.weavemc:internals:1.2.0")
-    implementation("net.weavemc.api:api:1.2.0")
-    implementation("net.weavemc.api:api-v1_8:1.2.0") // For 1.8 events
+    implementation("net.weavemc:loader:1.3.0") // For advanced modifications
+    implementation("net.weavemc:internals:1.3.0")
+    implementation("net.weavemc.api:api:1.3.0")
+    implementation("net.weavemc.api:api-v1_8:1.3.0") // For 1.8 events
 
     compileOnly("org.spongepowered:mixin:0.8.5")
 }
 
 java {
     withSourcesJar()
-
     toolchain {
         languageVersion.set(JavaLanguageVersion.of(8))
     }
