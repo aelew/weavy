@@ -1,4 +1,4 @@
-package dev.aelew.weavy.hook;
+package com.aelew.weavy.hook;
 
 import net.weavemc.api.Hook;
 import org.jetbrains.annotations.NotNull;

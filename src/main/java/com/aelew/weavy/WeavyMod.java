@@ -1,6 +1,6 @@
-package dev.aelew.weavy;
+package com.aelew.weavy;
 
-import dev.aelew.weavy.listener.RenderGameOverlayEventListener;
+import com.aelew.weavy.listener.RenderGameOverlayEventListener;
 import net.weavemc.api.ModInitializer;
 import net.weavemc.api.event.EventBus;
 import net.weavemc.api.event.KeyboardEvent;

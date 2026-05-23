@@ -1,6 +1,6 @@
 {
   "compatibilityLevel": "JAVA_8",
-  "package": "dev.aelew.weavy.mixin",
+  "package": "com.aelew.weavy.mixin",
   "mixins": [
     "MinecraftMixin"
   ]

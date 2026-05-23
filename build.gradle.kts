@@ -2,15 +2,15 @@ plugins {
     id("net.weavemc.gradle") version "1.3.0"
 }
 
-group = "dev.aelew"
+group = "com.aelew"
 version = "1.0.0"
 
 weave {
     configure {
         name = "weavy"
         modId = "weavy"
-        entryPoints = listOf("dev.aelew.weavy.WeavyMod")
-        hooks = listOf("dev.aelew.weavy.hook.MinecraftHook")
+        entryPoints = listOf("com.aelew.weavy.WeavyMod")
+        hooks = listOf("com.aelew.weavy.hook.MinecraftHook")
         mixinConfigs = listOf("weavy.mixin.json")
         accessWideners = listOf("weavy.accesswidener.txt")
         mcpMappings()
