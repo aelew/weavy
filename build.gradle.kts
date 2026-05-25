@@ -10,7 +10,6 @@ weave {
         name = "weavy"
         modId = "weavy"
         entryPoints = listOf("com.aelew.weavy.WeavyMod")
-        hooks = listOf("com.aelew.weavy.hook.MinecraftHook")
         mixinConfigs = listOf("weavy.mixins.json")
         accessWideners = listOf("weavy.accesswidener.txt")
         mcpMappings()

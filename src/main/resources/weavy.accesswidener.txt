@@ -8,7 +8,3 @@ accessWidener v2 mcp-named
 # Also, https://docs.fabricmc.net/develop/class-tweakers/access-widening is a great resource as most things are the same.
 
 # Pro tip: IntelliJ, you can sort the entries by Edit -> Sort Lines
-
-accessible method net/minecraft/client/Minecraft clickMouse ()V
-accessible field net/minecraft/client/Minecraft timer Lnet/minecraft/util/Timer;
-accessible field net/minecraft/entity/Entity isInWeb Z

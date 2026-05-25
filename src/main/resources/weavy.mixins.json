@@ -2,6 +2,8 @@
   "compatibilityLevel": "JAVA_8",
   "package": "com.aelew.weavy.mixin",
   "mixins": [
-    "MinecraftMixin"
+    "MinecraftMixin",
+    "EntityLivingBaseMixin",
+    "PlayerControllerMPMixin"
   ]
 }
